@@ -1,4 +1,6 @@
 # Merging Github with automation
+![cicd jobs](https://user-images.githubusercontent.com/115226294/200851535-ee25a857-9b09-4cb0-a84b-32854ad1385c.png)
+
 # Job 1
 ##### Main branch:
 - First we generate a new key `$ ssh-keygen -t ed25519 -C "mohamedosman998@hotmail.com"` - email must be github email
@@ -74,9 +76,10 @@ npm test
 - set the security groups as below:
     - Allow port 22 for your ip
     - allow port 22 for jenkins ip
-    - allow port 80 for nginx
+    - allow port 80 for access to the app
     - allow port 3000 for node app
-    INSERT PIC
+    ![rules](https://user-images.githubusercontent.com/115226294/200851591-794f6fbc-2d36-4dbd-8974-5f71ad73df4f.png)
+
 - launch ec2 instance
 - ssh into instance and run npm start
 - check if app is working
