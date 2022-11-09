@@ -1,3 +1,4 @@
+## Step 1
 ### First we need to create an environment and test if it works
 - Create an ec2 instance
 - Use app AMI
@@ -13,6 +14,7 @@
 - check if app is working
 - ps aux to kill node app
 
+## Step 2
 ### Now create a new jenkins job
 #### In General
 - Give a brief description
@@ -51,6 +53,7 @@ EOF
 
 - Now save and build app
 
+## Step 3
 #### Now make changes to the app homepage 
 - 
 - in vscode go to `index.ejs` and make changes 
