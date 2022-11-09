@@ -1,8 +1,8 @@
 # CD task
 
 create diagram
-sg rules:
-scripts
+
+![jenkins](https://user-images.githubusercontent.com/115226294/200811530-11555b3f-5f21-44db-a623-6fa9369e0886.png)
 
 
 #### Create new Jenkins cd job
