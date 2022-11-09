@@ -4,6 +4,10 @@ create diagram
 
 ![jenkins](https://user-images.githubusercontent.com/115226294/200811530-11555b3f-5f21-44db-a623-6fa9369e0886.png)
 
+First set up EC2 instance
+use app AMI
+create security group with rules
+
 
 #### Create new Jenkins cd job
 - In Source Code Management
@@ -14,6 +18,9 @@ create diagram
   - Select Build after other projects are built
   - Projects to watch and add your CI job
   - Tick Trigger only if build is stable
+- In build environment
+    - specify ssh agent - use eng130.pem as key
+
 - Go to build and add Execute shell
 - Transfer all the files you need to the EC2 Instances `scp -v -r -o StrictHostKeyChecking=no app/ ubuntu@ec2-ip:/home/ubuntu/`
 - SSH into the EC2 machine ```ssh -A -o "StrictHostKeyChecking=no" ubuntu@ec2-ip << EOF
