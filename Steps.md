@@ -88,9 +88,9 @@ npm test
 ## Step 2
 ### Now create a new jenkins job
 #### In General
-- Give a brief description
-- Discard old builds - set to 3
-- Github project - insert url to your github repo
+1. Give a brief description
+2. Discard old builds - set to 3
+3. Github project - insert url to your github repo
 
 #### In Office 365 connector
 - Restrict where this project can be run
@@ -103,8 +103,8 @@ npm test
     - Branches to build - set to `main`
 
 #### Build Environment
-- Provide Node & npm bin
-- SSH agent - select eng130.pem
+1. Provide Node & npm bin
+2. SSH agent - select eng130.pem
 
 #### Build
 - Execute shell
@@ -126,8 +126,11 @@ EOF
 
 ## Step 3
 #### Now make changes to the app homepage 
-- in vscode go to `index.ejs` and make changes 
-- save and push to github
-- rebuild project in jenkins
-- go to ec2 public IP
-- changes should be synced
+1. in vscode go to `index.ejs` and make changes 
+2. save and push to github
+3. rebuild project in jenkins
+4. go to ec2 public IP
+5. changes should be synced
+
+
+# Job 4
